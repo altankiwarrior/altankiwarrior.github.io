@@ -327,11 +327,8 @@ input::-webkit-inner-spin-button {
 html, body {
   height: 100%;
   background-color: black; 
-  color: white; 
-}
-
-body {
-  overflow-x: hidden;
+  color: white;
+  padding-top: env(safe-area-inset-top);
 }
 
 * {
