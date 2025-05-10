@@ -321,9 +321,11 @@ input::-webkit-inner-spin-button {
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background-color: #000000;
-    color: #ffffff;
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: black; 
+  color: white; 
 }
 
 * {
